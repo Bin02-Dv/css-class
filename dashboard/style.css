@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+}
+nav{
+    height: 100vh;
+    width: 30%;
+    background-color: dodgerblue;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+}
+
+header{
+    height: 10vh;
+    background-color: rgb(131, 189, 247);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #eee;
+}
+
+nav ul{
+    padding: 10px;
+}
+
+nav img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    background-color: #eee;
+}
+
+.ul2 li{
+    padding: 8px;
+    font-size: 20px;
+}
+
+.active{
+    background-color: rgb(238, 238, 238, .3);
+}
+
+.ul2 li:hover{
+    background-color: rgb(238, 238, 238, .3);
+}
+
+.logout{
+    background-color: rgb(125, 16, 16);
+}
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user img{
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+.card{
+    height: 9rem;
+    background-color: dodgerblue;
+    border-radius: 9px;
+}
